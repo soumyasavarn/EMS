@@ -1,7 +1,10 @@
 ## Introduction
-This is a DBMS Lab Assignment under DA215 course.\n
+This is a DBMS Lab Assignment under DA215 course.
+
 It invovles use of basic frontend technologies along with PHP and SQL for backend.
+
 Lead TA: Mr. Anupam Kumar
+
 Instructor: Dr. Chiranjib Sur
 
 Github repo: https://github.com/soumyasavarn/EMS
