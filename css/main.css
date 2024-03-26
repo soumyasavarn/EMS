@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  background-color: #e8f5e9; /* Light green background */
+}
+
+.phpcoding {
+  width: 900px;
+  margin: 0 auto;
+  background: #ddd; /* Changed to a light grey to ensure text is readable */
+  padding: 20px; /* Increased spacing */
+}
+
+.headeroption {
+  background: #2e7d32 url("../img/banner.png") no-repeat scroll 0 0; /* Green theme for header */
+  border-bottom: 2px solid #43a047; /* Green border for contrast */
+  height: 100px;
+  margin-bottom: 20px; /* Increased spacing */
+}
+
+.footeroption {
+  background: #2e7d32; /* Green theme for footer */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px; /* Increased spacing */
+}
+
+.headeroption h2,
+.footeroption h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.footeroption span a {
+  color: #81c784; /* Soft green for links */
+}
+
+.footeroption span a:hover {
+  color: #66bb6a; /* Brighter green on hover */
+}
+
+.maincontent {
+  font-size: 18px;
+  min-height: 430px;
+  padding: 20px;
+  background: #f1f8e9; /* Very light green for content area */
+  margin-bottom: 20px; /* Increased spacing */
+}
+
+.profile {
+  width: 530px;
+  margin: 0 auto;
+  border: 1px solid #c8e6c9; /* Soft green border */
+  padding: 30px;
+}
+
+.success {
+  color: #388e3c; /* Green color for success messages */
+  display: block;
+  padding-bottom: 5px;
+}
+
+.error,
+.empty,
+.disable {
+  color: red; /* Kept red for errors for better visibility */
+  display: block;
+  padding-bottom: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #a5d6a7; /* Soft green border for input fields */
+  margin-bottom: 15px; /* Increased spacing */
+  padding: 8px; /* Increased spacing */
+  width: 238px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 6px 12px; /* Increased spacing */
+  background-color: #4caf50; /* Material green for buttons */
+  color: #fff;
+}
+
+input[type="submit"]:hover {
+  background-color: #43a047; /* Slightly darker green on hover */
+}
+
+.tblone {
+  width: 100%;
+  border: 1px solid #fff;
+  margin: 20px 0;
+}
+
+.tblone td {
+  padding: 10px; /* Increased spacing */
+  text-align: center;
+}
+
+table.tblone tr:nth-child(2n+1) {
+  background: #fff; /* White for odd rows */
+}
+
+table.tblone tr:nth-child(2n) {
+  background: #f1f1f1; /* Light grey for even rows */
+}
+
+.main {
+  background: #fff;
+  border: 1px solid #999;
+  margin-top: 20px; /* Increased spacing */
+  min-height: 368px;
+  padding: 20px; /* Increased spacing */
+  width: 828px;
+}
+
+.main h1 {
+  background: #f4f4f4;
+  box-shadow: 2px 2px 0 1px #999;
+  color: #666;
+  margin: 10px auto 25px;
+  padding: 10px; /* Increased spacing */
+  text-align: center;
+  width: 620px;
+}
+
+.menu {
+  overflow: hidden;
+  margin-bottom: 20px; /* Increased spacing */
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu ul li {
+  display: block;
+  float: left;
+}
+
+.menu ul li a {
+  border: 1px solid #bdbdbd;
+  border-radius: 3px;
+  color: #444;
+  display: block;
+  margin: 0 10px 10px 0; /* Increased spacing */
+  padding: 8px 15px; /* Increased spacing */
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.segment {
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  float: left;
+  min-height: 245px;
+  padding: 20px;
+  width: 377px; /* Increased width to accommodate increased spacing */
+}
+
+.segment img {
+  height: 200px;
+  margin-left: 60px; /* Adjusted margin for better alignment */
+  padding-top: 20px; /* Increased spacing */
+}
